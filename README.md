@@ -17,7 +17,8 @@ by separating the web and database layers using AWS best practices.
 - RDS MySQL (Private Subnet)
 - Security Groups (ALB-SG, EC2-SG, RDS-SG)
 - Internet Gateway
-- Route Tables
+- Target groups
+
 
 ## Architecture Flow
 User → Internet Gateway → ALB → EC2 → RDS MySQL
@@ -60,5 +61,6 @@ WEB PAGE
 
 ## Region
 Asia Pacific (Mumbai) - ap-south-1
+
 
 
