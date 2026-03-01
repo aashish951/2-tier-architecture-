@@ -6,7 +6,7 @@ as the database is directly exposed. This project solves that
 by separating the web and database layers using AWS best practices.
 
 ## Architecture
-![Architecture Diagram](diagram.png)
+2-tier architecture.drawio.png
 
 ## Services Used
 - Amazon VPC (Custom - 10.0.0.0/16)
@@ -27,7 +27,16 @@ User → Internet Gateway → ALB → EC2 → RDS MySQL
 - Separate Security Groups for each layer
 
 ## Screenshots
-[Add screenshots here]
+    EC2.jpeg
+    LOAD BALANCER.jpeg  
+    RDS .jpeg
+    SECURITY GROUPS.jpeg
+    SSH LOGIN.jpeg
+    SUBNETS.jpeg
+    TARGET GROUPS.jpeg
+    VPC.jpeg
+    WEB PAGE.jpeg
 
 ## Region
 Asia Pacific (Mumbai) - ap-south-1
+
